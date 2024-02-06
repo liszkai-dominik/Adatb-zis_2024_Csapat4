@@ -36,5 +36,6 @@ a kulcsokat!
 **elerheto**            A fordító aktuális munkaképessége (logikai), igaz, ha elérhető, tehát
                         munkát tud vállalni, hamis, ha éppen nem vállal új fordítást
 
-![A kép nem tölthető be](idejönakép "A táblázatok képe")
+![A táblázatok képe](diagram.png)
+
      
