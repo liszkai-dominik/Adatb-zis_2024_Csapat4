@@ -36,6 +36,5 @@ a kulcsokat!
 **elerheto**            A fordító aktuális munkaképessége (logikai), igaz, ha elérhető, tehát
                         munkát tud vállalni, hamis, ha éppen nem vállal új fordítást
 
-![A táblázatok képe](diagram.png)
 
-     
+![A táblázatok képe](diagram.png)
