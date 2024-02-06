@@ -37,4 +37,5 @@ a kulcsokat!
                         munkát tud vállalni, hamis, ha éppen nem vállal új fordítást
 
 ![A táblázatok képe](diagram.png)
+
      
