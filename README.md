@@ -11,30 +11,38 @@ a kulcsokat!
 
 ## Táblák:
 
-***doku*** (id, terjedelem, szakterulet, nyelvid, munkaido)
-**id**                  A fordítandó dokumentum azonosítója (szám), ez a kulcs
-**terjedelem**          A dokumentum karaktereinek száma (szám)
-**szakterulet**         A dokumentum szakterülete (szöveg)
-**nyelvid**             A forrás- és a célnyelv párok azonosítója (szám)
-**munkaido**            A fordítás elvégzésére becsült idő órában (szám)
+|**dokumentumok**| (id, terjedelem, szakterulet, nyelvid, munkaido)      |
+|:--------------:|:--------:                                             |
+|`id `           | A fordítandó dokumentum azonosítója (szám), ez a kulcs|
+|`terjedelem`    | A dokumentum karaktereinek száma (szám)               |
+|`szakterulet`   |  A dokumentum szakterülete (szöveg)                   |
+|`nyelvid`       | A forrás- és a célnyelv párok azonosítója (szám)      |
+|`munkaido`      |  A fordítás elvégzésére becsült idő órában (szám)     |
+</br>
+</br>
 
-***nyelv*** (id, fnyelv, cnyelv, egysegar)
-**id**                  A fordítási nyelvpár azonosítója (szám), ez a kulcs
-**fnyelv**              A forrás dokumentum nyelve (szöveg)
-**cnyelv**              A cél dokumentum nyelve (szöveg)
-**egysegar**            5000 karakternél nem hosszabb fordítás ára adott nyelvpár esetén,
-                        a ráfordított időtől függetlenül (szám)
+|**nyelvek**| (id, fnyelv, cnyelv, egysegar)                                 |
+|:---------:|:--------:                                                      |
+|`id`       | A fordítási nyelvpár azonosítója (szám), ez a kulcs            |
+|`fnyelv`   | A forrás dokumentum nyelve (szöveg)                            |
+|`cnyelv`   | A cél dokumentum nyelve (szöveg)                               |
+|`egysegar` |5000 karakternél nem hosszabb fordítás ára adott nyelvpár esetén|
+</br>
+</br>
 
-***fordito*** (nyelvid, szemelyid)
-**nyelvid**             Annak a nyelvpárnak az azonosítója, amit a fordító vállal (szám),
-                        az összetett kulcs része
-**szemelyid**           A fordító azonosítója (szám), az összetett kulcs része
+|**fordito**|(nyelvid, szemelyid)                                                                        |  
+|:---------:|:--------:                                                                                  |                                
+|`nyelvid`  | Annak a nyelvpárnak az azonosítója, amit a fordító vállal (szám), az összetett kulcs része |
+|`szemelyid`|          A fordító azonosítója (szám), az összetett kulcs része                            |
+</br>
+</br>
 
-***szemely*** (id, nev, elerheto)
-**id**                  A fordító azonosítója (szám), ez a kulcs
-**nev**                 A fordító neve (szöveg) – azonos nevűek nincsenek
-**elerheto**            A fordító aktuális munkaképessége (logikai), igaz, ha elérhető, tehát
-                        munkát tud vállalni, hamis, ha éppen nem vállal új fordítást
-
+|**szemely**|(id, nev, elerheto)                                |
+|:------:   |:--------:                                         |
+|`id`       | A fordító azonosítója (szám), ez a kulcs          |
+|`nev`      | A fordító neve (szöveg) – azonos nevűek nincsenek |
+|`elerheto` |  A fordító aktuális munkaképessége (logikai)      |
+</br>
+</br>
 
 ![A táblázatok képe](diagram.png)
