@@ -45,4 +45,4 @@ a kulcsokat!
 </br>
 </br>
 
-![A táblázatok képe](diagram.png)
+![A táblázatok képe](diagram.PNG)
