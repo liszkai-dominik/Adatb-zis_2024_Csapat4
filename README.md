@@ -2,7 +2,7 @@
 
 # Fordítóiroda
 
-### Egy idegennyelvi fordítóiroda minden beérkezett megrendelésre árajánlatot készít. A megrendelt dokumentumok és a fordítók adatai állnak rendelkezésre az adatbázisban. A feladatok megoldása előtt nézze meg a táblák mezőit, kapcsolatait!
+### Egy idegennyelvi fordítóiroda minden beérkezett megrendelésre árajánlatot készít. A megrendelt dokumentumok és a fordítók adatai állnak rendelkezésre az adatbázisban. A feladatok megoldása előtt nézze meg a táblák mezőit, kapcsolatait! A következő feladatok megoldásánál a lekérdezéseket és a jelentést a zárójelben olvasható néven mentse! Ügyeljen arra, hogy a lekérdezésekben pontosan a kívánt mezők szerepeljenek, felesleges mezőt ne jelenítsen meg! 
 
 ## `1.Feladat`:
 
@@ -52,63 +52,63 @@
 
 ## `2.Feladat`:
 
-### A fordítóiroda utólag vállalt egy új nyelvről való fordítást. Adja hozzá a nyelvek adattáblához a következőket. Az id legyen 145, forrás nyelve török, a cél dokumentum nyelve román, illetve az egységár pedig legyen 3000Ft.
+### A fordítóiroda utólag vállalt egy új nyelvről való fordítást. Adja hozzá a nyelvek adattáblához a következőket. Az id legyen 145, forrás nyelve török, a cél dokumentum nyelve román, illetve az egységár pedig legyen 3000Ft. (**2.feladat**)
 ![2. feladat megoldása:](<képek/2.feladat(tábla).PNG>)
 </br>
 </br>
 
 ## `3.Feladat`:
 
-### A személyek adattáblában elírtak egy nevet. Módosítsa Nagy Tímea nevét Kiss Tímeára.
+### A személyek adattáblában elírtak egy nevet. Módosítsa Nagy Tímea nevét Kiss Tímeára. (**3.feladat**)
 ![3. feladat megoldása:](<képek/3.feladat(tábla).PNG>)
 </br>
 </br>
 
 ## `4.Feladat`:
 
-### A dokumentumok táblában történt egy tévedés, és a rendszerbe valamilyen módon bekerült a 25-ös id-val rendelkező sport szakterületű dokumentum. Keresse meg és törölje ki az adattáblából.
+### A dokumentumok táblában történt egy tévedés, és a rendszerbe valamilyen módon bekerült a 25-ös id-val rendelkező sport szakterületű dokumentum. Keresse meg és törölje ki az adattáblából. (**4.feladat**)
 ![4. feladat megoldása:](<képek/4.feladat(tábla).PNG>)
 </br>
 </br>
 
 ## `5.Feladat`:
 
-### Készítsen lekérdezést, amely ábécérendben megjeleníti azoknak a fordítóknak a nevét, akik új munkát tudnak vállalni!
+### Készítsen lekérdezést, amely ábécérendben megjeleníti azoknak a fordítóknak a nevét, akik új munkát tudnak vállalni! (**5.feladat**)
 ![5. feladat megoldása:](<képek/5.feladat(tábla).PNG>)
 </br>
 </br>
 
 ## `6.Feladat`:
 
-### Készítsen lekérdezést, amely meghatározza az 5000 és az annál kisebb karakterszámú dokumentumok számát és az ezek fordításáért járó összbevételt!
+### Készítsen lekérdezést, amely meghatározza az 5000 és az annál kisebb karakterszámú dokumentumok számát és az ezek fordításáért járó összbevételt! (**6.feladat**)
 ![6. feladat megoldása:](<képek/6.feladat(tábla).PNG>)
 </br>
 </br>
 
 ## `7.Feladat`:
 
-### Készítsen lekérdezést, amely megadja az angolról magyarra fordítandó dokumentumok terjedelmét és szakterületét! A lista terjedelem szerint csökkenően jelenjen meg!
+### Készítsen lekérdezést, amely megadja az angolról magyarra fordítandó dokumentumok terjedelmét és szakterületét! A lista terjedelem szerint csökkenően jelenjen meg! (**7.feladat**)
 ![7. feladat megoldása:](<képek/7.feladat(tábla).PNG>)
 </br>
 </br>
 
 ## `8.Feladat`:
 
-### Melyik szakterülethez tartoznak és melyik nyelvről melyikre kell azokat a dokumentumot fordítani, amelyekre majdnem pontosan egy munkanapnyi (7-9 óra) fordítási időt becsültek? Adja meg lekérdezés segítségével a szakterületeket, a forrás- és a célnyelvek nevét a forrásnyelv szerint ábécé sorrendben!
+### Melyik szakterülethez tartoznak és melyik nyelvről melyikre kell azokat a dokumentumot fordítani, amelyekre majdnem pontosan egy munkanapnyi (7-9 óra) fordítási időt becsültek? Adja meg lekérdezés segítségével a szakterületeket, a forrás- és a célnyelvek nevét a forrásnyelv szerint ábécé sorrendben! (**8.feladat**)
 ![8. feladat megoldása:](<képek/8.feladat(tábla).PNG>)
 </br>
 </br>
 
 ## `9.Feladat`:
 
-### Lekérdezés segítségével adja meg azoknak a fordítóknak a nevét, akik magyarról a legtöbb célnyelvre vállalnak fordítást! Több ilyen fordító esetén elegendő egyet megjeleníteni.
+### Lekérdezés segítségével adja meg azoknak a fordítóknak a nevét, akik magyarról a legtöbb célnyelvre vállalnak fordítást! Több ilyen fordító esetén elegendő egyet megjeleníteni. (**9.feladat**)
 ![9. feladat megoldása:](<képek/9.feladat(tábla).PNG>)
 </br>
 </br>
 
 ## `10.Feladat`:
 
-### Készítsen lekérdezést, amely kilistázza szakterületenként, hogy melyik nyelvről melyikre kell fordítani a megrendelt dokumentumokat. A listát szakterületenként csoportosítsa és azon belül minden nyelvpár egyszer jelenjen meg a forrásnyelv szerint ábécé-rendben! A lekérdezés elkészítésekor a mintából a mezők sorrendjét, a címet és a mezőnevek megjelenítését vegye figyelembe! A lekérdezés formázásában a mintától eltérhet.
+### Készítsen lekérdezést, amely kilistázza szakterületenként, hogy melyik nyelvről melyikre kell fordítani a megrendelt dokumentumokat. A listát szakterületenként csoportosítsa és azon belül minden nyelvpár egyszer jelenjen meg a forrásnyelv szerint ábécé-rendben! A lekérdezés elkészítésekor a mintából a mezők sorrendjét, a címet és a mezőnevek megjelenítését vegye figyelembe! A lekérdezés formázásában a mintától eltérhet. (**10.feladat**)
 ![10. feladat megoldása:](<képek/11.feladat(tábla).PNG>)
 </br>
 </br>
