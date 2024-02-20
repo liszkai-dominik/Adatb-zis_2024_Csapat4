@@ -16,26 +16,26 @@ FROM szemelyek
 WHERE elerheto = 1
 ORDER BY nev ASC;
 
---5.feladat
+--6.feladat
 SELECT COUNT(*) AS dokumentumok_szama, SUM(egysegar) AS osszbevetel
 FROM dokumentumok
 JOIN nyelvek ON dokumentumok.nyelvId = nyelvek.id
 WHERE dokumentumok.terjedelem <= 5000;
 
---6.feladat
+--7.feladat
 SELECT nyelvId, szakterulet, terjedelem
 FROM dokumentumok
 WHERE nyelvId = 50
 ORDER BY terjedelem DESC;
 
---7.feladat*/
+--8.feladat*/
 SELECT szakterulet AS 'Szakterület', fnyelv AS 'Forrásnyelv', cnyelv AS 'Célnyelv'
 FROM dokumentumok
 JOIN nyelvek ON nyelvId = nyelvek.id
 WHERE munkaido >= 7 AND munkaido <= 9
 ORDER BY fnyelv;
 
---8.feladat
+--9.feladat
 SELECT nev
 FROM szemelyek
 JOIN forditok ON szemelyek.id = szemelyId
