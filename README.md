@@ -2,11 +2,11 @@
 
 # Fordítóiroda
 
-### Futtassa le a **iroda.sql** állományt az alábbi táblák(`dokumentumok`, `nyelvek`, `forditok`, `személyek`) létrehozásához!
+### Futtassa le a `iroda.sql` állományt az alábbi táblák(`dokumentumok`, `nyelvek`, `forditok`, `személyek`) létrehozásához!
 
 ## `1.Feladat`:
 
-### Készítsen új adatbázist iroda néven! A mellékelt állományokat importálja az adatbázisba a fájlnévvel azonos táblanéven! Az állományok tabulátorral tagolt, UTF-8 kódolású szövegfájlok, az első soruk a mezőneveket tartalmazza. Állítsa be a megfelelő típusokat és a kulcsokat!
+### Készítsen új adatbázist iroda néven! A mellékelt állományokat importálja az adatbázisba a fájlnévvel azonos táblanéven! Az állományok tabulátorral tagolt, UTF-8 kódolású szövegfájlok, az első soruk a mezőneveket tartalmazza. A feladatok elkészítésére szolgáló feladatok megoldását mentse a `megoldas.sql` fájlba!
 
 ## Táblák:
 
