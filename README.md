@@ -31,17 +31,17 @@ Futtassa le a **iroda.sql** állományt az alábbi táblák(`dokumentumok`, `nye
 </br>
 
 |**forditok**|(nyelvid, szemelyid)                                                                        |  
-|:---------:|:--------:                                                                                  |                                
-|`nyelvid`  | Annak a nyelvpárnak az azonosítója, amit a fordító vállal (szám), az összetett kulcs része |
-|`szemelyid`|          A fordító azonosítója (szám), az összetett kulcs része                            |
+|:---------: |:--------:                                                                                  |                                
+|`nyelvid`   | Annak a nyelvpárnak az azonosítója, amit a fordító vállal (szám), az összetett kulcs része |
+|`szemelyid` |          A fordító azonosítója (szám), az összetett kulcs része                            |
 </br>
 </br>
 
 |**szemelyek**|(id, nev, elerheto)                                |
-|:------:   |:--------:                                         |
-|`id`       | A fordító azonosítója (szám), ez a kulcs          |
-|`nev`      | A fordító neve (szöveg) – azonos nevűek nincsenek |
-|`elerheto` |  A fordító aktuális munkaképessége (logikai)      |
+|:------:     |:--------:                                         |
+|`id`         | A fordító azonosítója (szám), ez a kulcs          |
+|`nev`        | A fordító neve (szöveg) – azonos nevűek nincsenek |
+|`elerheto`   |  A fordító aktuális munkaképessége (logikai)      |
 </br>
 </br>
 
