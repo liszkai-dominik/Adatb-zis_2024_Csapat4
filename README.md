@@ -2,45 +2,47 @@
 
 # Fordítóiroda
 
-### Futtassa le a `iroda.sql` állományt az alábbi táblák(`dokumentumok`, `nyelvek`, `forditok`, `személyek`) létrehozásához!
+### Egy idegennyelvi fordítóiroda minden beérkezett megrendelésre árajánlatot készít. A megrendelt dokumentumok és a fordítók adatai állnak rendelkezésre az adatbázisban. A feladatok megoldása előtt nézze meg a táblák mezőit, kapcsolatait!
 
 ## `1.Feladat`:
 
-### Készítsen új adatbázist iroda néven! A mellékelt állományokat importálja az adatbázisba a fájlnévvel azonos táblanéven! Az állományok tabulátorral tagolt, UTF-8 kódolású szövegfájlok, az első soruk a mezőneveket tartalmazza. A feladatok elkészítésére szolgáló feladatok megoldását mentse a `megoldas.sql` fájlba!
+### Futtassa le a `iroda.sql` állományt az alábbi táblák(`dokumentumok`, `nyelvek`, `forditok`, `személyek`) létrehozásához!
+
+### Készítsen új adatbázist iroda néven! Hozza létre a megadott táblákat és azoknsk mezőit, majd töltse fel a megadott adatokkal! A feladatok elkészítésére szolgáló feladatok megoldását mentse a `megoldas.sql` fájlba!
 
 ## Táblák:
 
-|**dokumentumok**| (id, terjedelem, szakterulet, nyelvid, munkaido)      |
-|:--------------:|:--------:                                             |
-|`id `           | A fordítandó dokumentum azonosítója (szám), ez a kulcs|
-|`terjedelem`    | A dokumentum karaktereinek száma (szám)               |
-|`szakterulet`   |  A dokumentum szakterülete (szöveg)                   |
-|`nyelvid`       | A forrás- és a célnyelv párok azonosítója (szám)      |
-|`munkaido`      |  A fordítás elvégzésére becsült idő órában (szám)     |
+|**dokumentumok**| (id, terjedelem, szakterulet, nyelvid, munkaido)                           |
+|:--------------:|:--------:                                                                  |
+|`id `           | A fordítandó dokumentum azonosítója (szám), ez az elsődleges kulcs         |
+|`terjedelem`    | A dokumentum karaktereinek száma (szám)                                    |
+|`szakterulet`   |  A dokumentum szakterülete (szöveg)                                        |
+|`nyelvId`       | A forrás- és a célnyelv párok azonosítója (szám)m az összetett kulcs része |
+|`munkaido`      |  A fordítás elvégzésére becsült idő órában (szám)                          |
 </br>
 </br>
 
-|**nyelvek**| (id, fnyelv, cnyelv, egysegar)                                 |
-|:---------:|:--------:                                                      |
-|`id`       | A fordítási nyelvpár azonosítója (szám), ez a kulcs            |
-|`fnyelv`   | A forrás dokumentum nyelve (szöveg)                            |
-|`cnyelv`   | A cél dokumentum nyelve (szöveg)                               |
-|`egysegar` |5000 karakternél nem hosszabb fordítás ára adott nyelvpár esetén|
+|**nyelvek**| (id, fnyelv, cnyelv, egysegar)                                  |
+|:---------:|:--------:                                                       |
+|`id`       | A fordítási nyelvpár azonosítója (szám), ez az elsődleges kulcs |
+|`fnyelv`   | A forrás dokumentum nyelve (szöveg)                             |
+|`cnyelv`   | A cél dokumentum nyelve (szöveg)                                |
+|`egysegar` |5000 karakternél nem hosszabb fordítás ára adott nyelvpár esetén |
 </br>
 </br>
 
 |**forditok**|(nyelvid, szemelyid)                                                                        |  
 |:---------: |:--------:                                                                                  |                                
-|`nyelvid`   | Annak a nyelvpárnak az azonosítója, amit a fordító vállal (szám), az összetett kulcs része |
-|`szemelyid` |          A fordító azonosítója (szám), az összetett kulcs része                            |
+|`nyelvId`   | Annak a nyelvpárnak az azonosítója, amit a fordító vállal (szám), az összetett kulcs része |
+|`szemelyId` |          A fordító azonosítója (szám), az összetett kulcs része                            |
 </br>
 </br>
 
-|**szemelyek**|(id, nev, elerheto)                                |
-|:------:     |:--------:                                         |
-|`id`         | A fordító azonosítója (szám), ez a kulcs          |
-|`nev`        | A fordító neve (szöveg) – azonos nevűek nincsenek |
-|`elerheto`   |  A fordító aktuális munkaképessége (logikai)      |
+|**szemelyek**|(id, nev, elerheto)                                  |
+|:------:     |:--------:                                           |
+|`id`         | A fordító azonosítója (szám), ez az elsődleges kulcs|
+|`nev`        | A fordító neve (szöveg) – azonos nevűek nincsenek   |
+|`elerheto`   |  A fordító aktuális munkaképessége (logikai)        |
 </br>
 </br>
 
