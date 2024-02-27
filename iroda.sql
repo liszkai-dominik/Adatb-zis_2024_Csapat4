@@ -584,7 +584,7 @@ ORDER BY nev ASC;
 /*6.feladat*/
 SELECT COUNT(*) AS dokumentumok_szama, SUM(egysegar) AS osszbevetel
 FROM dokumentumok
-JOIN nyelvek ON dokumentumok.nyelvId = nyelvek.id
+INNER JOIN nyelvek ON dokumentumok.nyelvId = nyelvek.id
 WHERE dokumentumok.terjedelem <= 5000;
 
 /*7.feladat*/
@@ -596,15 +596,15 @@ ORDER BY terjedelem DESC;
 /*8.feladat*/
 SELECT szakterulet AS 'Szakterület', fnyelv AS 'Forrásnyelv', cnyelv AS 'Célnyelv'
 FROM dokumentumok
-JOIN nyelvek ON nyelvId = nyelvek.id
+INNER JOIN nyelvek ON nyelvId = nyelvek.id
 WHERE munkaido >= 7 AND munkaido <= 9
 ORDER BY fnyelv;
 
 /*9.feladat*/
 SELECT nev
 FROM szemelyek
-JOIN forditok ON szemelyek.id = szemelyId
-JOIN nyelvek ON nyelvId = nyelvek.id
+INNER JOIN forditok ON szemelyek.id = szemelyId
+INNER JOIN nyelvek ON nyelvId = nyelvek.id
 WHERE fnyelv = 'magyar'
 GROUP BY szemelyek.id
 ORDER BY COUNT(DISTINCT cnyelv) DESC
