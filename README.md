@@ -87,7 +87,7 @@
 
 ## `7.Feladat`:
 
-### Készítsen lekérdezést, amely megadja az angolról magyarra fordítandó dokumentumok terjedelmét és szakterületét! A lista terjedelem szerint csökkenően jelenjen meg! (**7.feladat**)
+### Készítsen lekérdezést, amely megadja az angolról magyarra fordítandó(50-es nyelvId-val rendelkező) dokumentumok terjedelmét és szakterületét! A lista terjedelem szerint csökkenően jelenjen meg! (**7.feladat**)
 ![7. feladat megoldása:](<képek/7.feladat(tábla).PNG>)
 </br>
 </br>
