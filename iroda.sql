@@ -13,7 +13,7 @@ CREATE TABLE dokumentumok(
   PRIMARY KEY(id)
 );
 
-INSERT INTO dokumentumok VALUES(id, terjedelem, szakterulet, nyelvId, munkaido)
+INSERT INTO dokumentumok(id, terjedelem, szakterulet, nyelvId, munkaido) VALUES
   ( 1,111932,"jog",3,8),
   ( 2,90630,"hivatalos okmány",1,8),
   ( 3,128217,"informatika",5,4),
@@ -135,7 +135,7 @@ CREATE TABLE forditok(
 );
 ALTER TABLE forditok ADD PRIMARY KEY(nyelvId,szemelyId);
 
-INSERT INTO forditok VALUES(nyelvId, szemelyId)
+INSERT INTO forditok(nyelvId, szemelyId) VALUES
   ( 1,1),
   ( 18,1),
   ( 50,1),
@@ -330,7 +330,7 @@ CREATE TABLE nyelvek(
 );
 ALTER TABLE nyelvek ADD INDEX(fnyelv);ALTER TABLE nyelvek ADD INDEX(cnyelv);
 
-INSERT INTO nyelvek VALUES(id, fnyelv, cnyelv, egysegar)
+INSERT INTO nyelvek(id, fnyelv, cnyelv, egysegar) VALUES
   ( 1,"magyar","angol",4000),
   ( 2,"magyar","német",4000),
   ( 3,"magyar","spanyol",4000),
@@ -484,7 +484,7 @@ CREATE TABLE szemelyek(
   PRIMARY KEY(id)
 );
 
-INSERT INTO szemelyek VALUES(id, nev, elerheto)
+INSERT INTO szemelyek(id, nev, elerheto) VALUES
   ( 1,"Skvar Tamás",1),
   ( 2,"Tatár István",1),
   ( 3,"Siket Karen",0),
