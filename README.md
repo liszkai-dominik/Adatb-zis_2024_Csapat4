@@ -59,7 +59,7 @@
 
 ## `3.Feladat`:
 
-### A személyek adattáblában elírtak egy nevet. Módosítsa Nagy Tímea nevét Kiss Tímeára. (**3.feladat**)
+### A személyek adattáblában elírtak egy nevet. Módosítsa a 75-ös azonosítójú Nagy Tímea nevét Kiss Tímeára. (**3.feladat**)
 ![3. feladat megoldása:](<képek/3.feladat(tábla).PNG>)
 </br>
 </br>
