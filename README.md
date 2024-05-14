@@ -6,7 +6,7 @@
 
 ## `1.Feladat`:
 
-### Futtassa le a `iroda.sql` állományt az alábbi táblák(`dokumentumok`, `nyelvek`, `forditok`, `személyek`) létrehozásához!
+### Futtassa le az `iroda.sql` állományt az alábbi táblák(`dokumentumok`, `nyelvek`, `forditok`, `személyek`) létrehozásához!
 
 ### Készítsen új adatbázist iroda néven! Hozza létre a megadott táblákat és azoknak mezőit, majd töltse fel a megadott adatokkal! A feladatok elkészítésére szolgáló feladatok megoldását mentse a `megoldas.sql` fájlba!
 
