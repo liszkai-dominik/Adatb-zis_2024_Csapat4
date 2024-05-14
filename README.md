@@ -1,4 +1,4 @@
-# Adatb-zis_2024_Csapat4
+# Adatbazis_2024_Csapat4
 
 # Fordítóiroda
 
